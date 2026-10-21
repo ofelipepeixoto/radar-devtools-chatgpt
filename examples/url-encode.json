@@ -1,0 +1,7 @@
+{
+  "schema_version": "1.0",
+  "operation": "url.encode",
+  "arguments": {
+    "text": "Radar / IA + dados"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "schema_version": "1.0",
+  "operation": "json.format",
+  "result": {
+    "text": "{\n  \"portal\": \"Radar\",\n  \"valor\": 9007199254740993,\n  \"ativo\": true\n}"
+  },
+  "limitations": [
+    "Preserva números decimais sem ponto flutuante binário; não valida schema de negócio."
+  ],
+  "input_sha256": "d9010520867b53843a5d3290d678e401ac45ff07da43c1686a3eba9fa73b8772",
+  "engine_version": "0.1.0"
+}

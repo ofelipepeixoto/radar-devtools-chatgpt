@@ -1,0 +1,18 @@
+{
+  "schema_version": "1.0",
+  "operation": "url.inspect",
+  "result": {
+    "scheme": "https",
+    "host": "example.com",
+    "port": 8443,
+    "path": "/pauta",
+    "query": "q=radar",
+    "fragment": "inicio",
+    "network_accessed": false
+  },
+  "limitations": [
+    "Somente parsing local; não confirma existência, propriedade ou segurança do destino."
+  ],
+  "input_sha256": "a22422633ee074d0695f3a928f5aef118e238521a8c655ffdbc1f42c32b5ee21",
+  "engine_version": "0.1.0"
+}

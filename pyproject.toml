@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools==84.0.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "radar-devtools-chatgpt"
+version = "0.1.0"
+description = "Utilitários determinísticos locais para ChatGPT Work"
+readme = "README.md"
+requires-python = ">=3.11"
+license = "GPL-3.0-only"
+license-files = ["LICENSE"]
+authors = [{name = "Carlos Felipe"}]
+dependencies = []
+
+[project.scripts]
+radar-devtools = "radar_devtools.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["radar_devtools*"]

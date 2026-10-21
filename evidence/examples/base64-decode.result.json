@@ -1,0 +1,12 @@
+{
+  "schema_version": "1.0",
+  "operation": "base64.decode",
+  "result": {
+    "text": "Olá, Radar!"
+  },
+  "limitations": [
+    "Base64 é codificação reversível, não criptografia; aceita apenas saída UTF-8."
+  ],
+  "input_sha256": "75abb1ecc0b4b140f69823034ef18f31a46c5a32fbb289dc08a902eb49e29993",
+  "engine_version": "0.1.0"
+}

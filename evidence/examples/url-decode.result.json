@@ -1,0 +1,12 @@
+{
+  "schema_version": "1.0",
+  "operation": "url.decode",
+  "result": {
+    "text": "Radar / IA + dados"
+  },
+  "limitations": [
+    "Decodifica percentuais UTF-8; o caractere + permanece +."
+  ],
+  "input_sha256": "41dc58e5257c8507f170a91756fd266f8d71bcbfac29f0cb1ffcbd67fec556ec",
+  "engine_version": "0.1.0"
+}

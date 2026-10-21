@@ -1,0 +1,14 @@
+{
+  "schema_version": "1.0",
+  "operation": "uuid.inspect",
+  "result": {
+    "value": "123e4567-e89b-42d3-a456-426614174000",
+    "version": 4,
+    "variant": "RFC 4122"
+  },
+  "limitations": [
+    "Formato e variante não comprovam unicidade nem origem."
+  ],
+  "input_sha256": "e532f8e12f64f576c835e319b1abb44138be9d6af98733ca3739bf6f1c0136ce",
+  "engine_version": "0.1.0"
+}

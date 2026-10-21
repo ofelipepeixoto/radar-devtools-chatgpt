@@ -1,0 +1,17 @@
+{
+  "schema_version": "1.0",
+  "operation": "network.cidr",
+  "result": {
+    "network": "192.0.2.0/24",
+    "version": 4,
+    "prefix_length": 24,
+    "address_count": "256",
+    "first_address": "192.0.2.0",
+    "last_address": "192.0.2.255"
+  },
+  "limitations": [
+    "A contagem inclui todos os endereços; não enumera hosts nem acessa a rede."
+  ],
+  "input_sha256": "859df239135a21bfbe12ba58014c9a8ad8c298fff82f01896cf90aa2be75d021",
+  "engine_version": "0.1.0"
+}

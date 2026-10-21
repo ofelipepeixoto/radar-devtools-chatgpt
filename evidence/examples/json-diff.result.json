@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0",
+  "operation": "json.diff",
+  "result": {
+    "equal": false,
+    "changes": [
+      {
+        "kind": "changed",
+        "path": "/itens/1",
+        "before_json": "2",
+        "after_json": "3"
+      },
+      {
+        "kind": "changed",
+        "path": "/revisao",
+        "before_json": "false",
+        "after_json": "1"
+      }
+    ]
+  },
+  "limitations": [
+    "Compara estrutura JSON; arrays são comparados por posição; máximo de 200 alterações."
+  ],
+  "input_sha256": "0619ecc3d1ae270dcc676b9c343578a9d98b340e5460fb51fff378b5fc7a546a",
+  "engine_version": "0.1.0"
+}
