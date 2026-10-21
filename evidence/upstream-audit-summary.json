@@ -1,0 +1,24 @@
+{
+  "retrieved_at": "2026-10-21",
+  "scope": "pnpm audit full dependency graph; findings are advisory matches, exploitability not demonstrated",
+  "metadata": {
+    "vulnerabilities": {
+      "info": 0,
+      "low": 14,
+      "moderate": 83,
+      "high": 89,
+      "critical": 6
+    },
+    "dependencies": 454,
+    "devDependencies": 899,
+    "optionalDependencies": 61,
+    "totalDependencies": 1354
+  },
+  "total_advisory_records": 192,
+  "distinct_github_advisory_ids": 162,
+  "prod_records": 114,
+  "dev_only_records": 78,
+  "runtime_distinct_GHSA": 96,
+  "advisory_rows_file": "upstream-advisories.csv",
+  "generated": true
+}

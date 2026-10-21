@@ -1,0 +1,14 @@
+{
+  "observed_on": "2026-10-21",
+  "repository": "ofelipepeixoto/radar-devtools-chatgpt",
+  "head_sha": "639bc8947a5338352b9d378f9b08e5211b4e4117",
+  "pull_request": 1,
+  "run_id": 39657278239,
+  "status": "completed",
+  "conclusion": "success",
+  "url": "https://github.com/ofelipepeixoto/radar-devtools-chatgpt/actions/runs/39657278239",
+  "local_tests": 69,
+  "independent_tests_included": 21,
+  "valid_examples": 11,
+  "invalid_example_refused": 1
+}

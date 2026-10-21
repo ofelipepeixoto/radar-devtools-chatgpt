@@ -1,0 +1,73 @@
+--- a/src/tools/json-to-csv/json-to-csv.service.ts
++++ b/src/tools/json-to-csv/json-to-csv.service.ts
+@@ -1,35 +1,21 @@
++// Candidate correction for CorentinTh/it-tools, GPL-3.0. Audit 2026-10-21.
+ export { getHeaders, convertArrayToCsv };
+ 
+ function getHeaders({ array }: { array: Record<string, unknown>[] }): string[] {
+   const headers = new Set<string>();
+-
+   array.forEach(item => Object.keys(item).forEach(key => headers.add(key)));
+-
+   return Array.from(headers);
+ }
+ 
+ function serializeValue(value: unknown): string {
+-  if (value === null) {
+-    return 'null';
+-  }
+-
+-  if (value === undefined) {
+-    return '';
+-  }
+-
+-  const valueAsString = String(value).replace(/\n/g, '\\n').replace(/\r/g, '\\r').replace(/"/g, '\\"');
+-
+-  if (valueAsString.includes(',')) {
+-    return `"${valueAsString}"`;
+-  }
+-
+-  return valueAsString;
++  if (value === null) return 'null';
++  if (value === undefined) return '';
++  const text = String(value);
++  return /[",\r\n]/.test(text) ? `"${text.replace(/"/g, '""')}"` : text;
+ }
+ 
+ function convertArrayToCsv({ array }: { array: Record<string, unknown>[] }): string {
+   const headers = getHeaders({ array });
+-
+-  const rows = array.map(item => headers.map(header => serializeValue(item[header])));
+-
+-  return [headers.join(','), ...rows].join('\n');
++  const rows = array.map(item => headers.map(header => serializeValue(item[header])).join(','));
++  return [headers.map(serializeValue).join(','), ...rows].join('\n');
+ }
+--- a/src/tools/regex-tester/regex-tester.service.ts
++++ b/src/tools/regex-tester/regex-tester.service.ts
+@@ -20,7 +20,7 @@
+   // }
+ 
+   let lastIndex = -1;
+-  const re = new RegExp(regex, flags);
++  const re = new RegExp(regex, flags.includes('d') ? flags : `${flags}d`);
+   const results = [];
+   let match = re.exec(text) as RegExpExecArrayWithIndices;
+   while (match !== null) {
+@@ -30,7 +30,7 @@
+     const indices = match.indices;
+     const captures: Array<GroupCapture> = [];
+     Object.entries(match).forEach(([captureName, captureValue]) => {
+-      if (captureName !== '0' && captureName.match(/\d+/)) {
++      if (captureName !== '0' && /^\d+$/.test(captureName) && indices[Number(captureName)]) {
+         captures.push({
+           name: captureName,
+           value: captureValue,
+@@ -41,6 +41,7 @@
+     });
+     const groups: Array<GroupCapture> = [];
+     Object.entries(match.groups || {}).forEach(([groupName, groupValue]) => {
++      if (!indices.groups[groupName]) return;
+       groups.push({
+         name: groupName,
+         value: groupValue,
