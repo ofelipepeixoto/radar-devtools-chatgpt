@@ -1,0 +1,39 @@
+{
+  "upstream": "d505845f918e946ec300af7b36efc107e2f66e9e",
+  "node": "v24.19.0",
+  "synthetic_only": true,
+  "results": [
+    {
+      "name": "regex-unmatched-optional-capture-throws",
+      "status": "reproduced"
+    },
+    {
+      "name": "regex-main-thread-work-not-bounded",
+      "status": "reproduced"
+    },
+    {
+      "name": "csv-quotes-use-backslash-not-rfc4180-doubling",
+      "status": "reproduced"
+    },
+    {
+      "name": "csv-header-with-comma-changes-column-count",
+      "status": "reproduced"
+    },
+    {
+      "name": "csv-formula-cells-are-preserved",
+      "status": "reproduced"
+    },
+    {
+      "name": "token-output-follows-Math.random-source",
+      "status": "reproduced"
+    },
+    {
+      "name": "token-default-alphabet-omits-N-and-n",
+      "status": "reproduced"
+    },
+    {
+      "name": "svg-custom-text-interpolated-as-markup",
+      "status": "reproduced"
+    }
+  ]
+}

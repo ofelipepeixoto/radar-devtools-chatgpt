@@ -1,0 +1,64 @@
+upstream-unit.log
+
+ RUN  v0.34.0 /workspace/scratch/6e3240f336da/it-tools-upstream
+
+ ✓ src/tools/date-time-converter/date-time-converter.models.test.ts  (19 tests) 9ms
+ ✓ src/ui/c-input-text/c-input-text.test.ts  (13 tests) 133ms
+ ✓ src/tools/chmod-calculator/chmod-calculator.service.test.ts  (2 tests) 2ms
+ ✓ src/utils/base64.test.ts  (9 tests) 16ms
+ ✓ src/tools/otp-code-generator-and-validator/otp.service.test.ts  (10 tests) 10ms
+ ✓ src/tools/roman-numeral-converter/roman-numeral-converter.service.test.ts  (4 tests) 1ms
+ ✓ src/tools/token-generator/token-generator.service.test.ts  (7 tests) 26ms
+ ✓ src/tools/mac-address-generator/mac-adress-generator.models.test.ts  (5 tests) 2ms
+ ✓ src/tools/json-to-csv/json-to-csv.service.test.ts  (8 tests) 5ms
+ ✓ src/tools/regex-tester/regex-tester.service.test.ts  (5 tests) 11ms
+ ✓ src/tools/list-converter/list-converter.models.test.ts  (3 tests) 2ms
+ ✓ src/tools/json-diff/json-diff.models.test.ts  (2 tests) 2ms
+ ✓ src/tools/password-strength-analyser/password-strength-analyser.service.test.ts  (7 tests) 2ms
+ ✓ src/composable/downloadBase64.test.ts  (3 tests) 3ms
+ ✓ src/tools/safelink-decoder/safelink-decoder.service.test.ts  (3 tests) 1ms
+ ✓ src/tools/ipv4-address-converter/ipv4-address-converter.service.test.ts  (4 tests) 1ms
+ ✓ src/tools/text-to-binary/text-to-binary.models.test.ts  (5 tests) 1ms
+ ✓ src/tools/integer-base-converter/integer-base-converter.model.test.ts  (1 test)
+ ✓ src/tools/ipv4-range-expander/ipv4-range-expander.service.test.ts  (3 tests) 2ms
+ ✓ src/ui/color/color.models.test.ts  (6 tests) 2ms
+ ✓ src/tools/text-to-unicode/text-to-unicode.service.test.ts  (2 tests) 1ms
+ ✓ src/composable/validation.test.ts  (2 tests) 1ms
+ ✓ src/tools/string-obfuscator/string-obfuscator.model.test.ts  (2 tests)
+ ✓ src/utils/error.test.ts  (1 test) 1ms
+ ✓ src/tools/json-viewer/json.models.test.ts  (1 test) 15ms
+ ✓ src/tools/xml-formatter/xml-formatter.service.test.ts  (2 tests) 2ms
+ ✓ src/utils/boolean.test.ts  (2 tests) 1ms
+ ✓ src/tools/numeronym-generator/numeronym-generator.service.test.ts  (2 tests) 1ms
+ ✓ src/tools/color-converter/color-converter.models.test.ts  (1 test) 1ms
+ ✓ src/tools/hash-text/hash-text.service.test.ts  (1 test) 2ms
+ ✓ src/tools/text-statistics/text-statistics.service.test.ts  (1 test) 1ms
+ ✓ src/utils/defaults.test.ts  (1 test)
+ ✓ src/tools/chronometer/chronometer.service.test.ts  (1 test)
+
+ Test Files  33 passed (33)
+      Tests  138 passed (138)
+   Start at  14:47:55
+   Duration  2.56s (transform 1.07s, setup 0ms, collect 1.48s, tests 257ms, environment 361ms, prepare 126ms)
+
+
+
+upstream-lint.log
+
+/workspace/scratch/6e3240f336da/it-tools-upstream/src/modules/command-palette/command-palette.vue
+  131:9  warning  UnoCSS attributes are not ordered  @unocss/order-attributify
+
+/workspace/scratch/6e3240f336da/it-tools-upstream/src/ui/c-select/c-select.vue
+  154:13  warning  UnoCSS attributes are not ordered  @unocss/order-attributify
+
+/workspace/scratch/6e3240f336da/it-tools-upstream/src/ui/c-table/c-table.vue
+  42:40  warning  UnoCSS utilities are not ordered  @unocss/order
+
+✖ 3 problems (0 errors, 3 warnings)
+  0 errors and 3 warnings potentially fixable with the `--fix` option.
+
+(node:5) [DEP0180] DeprecationWarning: fs.Stats constructor is deprecated.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+
+
+upstream-typecheck.log

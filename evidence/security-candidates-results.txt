@@ -1,0 +1,19 @@
+(node:12) ExperimentalWarning: stripTypeScriptTypes is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+✔ CSV header with comma is one quoted column (1.524065ms)
+✔ CSV quotes are doubled and cells quoted (0.149602ms)
+✔ CSV newline is preserved inside quotes (0.115341ms)
+✔ CSV null and missing preserve original contract (0.156543ms)
+✔ CSV heterogeneous rows retain all headers (0.174469ms)
+✔ optional unmatched regex groups do not discard valid match (0.350321ms)
+✔ matched named capture keeps indices (0.162642ms)
+✔ helper adds indices flag when missing (0.187118ms)
+✔ ungrouped regex remains correct (0.195621ms)
+ℹ tests 9
+ℹ suites 0
+ℹ pass 9
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 162.075973
