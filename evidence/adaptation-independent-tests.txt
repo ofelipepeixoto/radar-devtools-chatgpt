@@ -1,0 +1,26 @@
+test_all_operations_accept_json_roundtrip_envelope (test_independent.IndependentEngineTests.test_all_operations_accept_json_roundtrip_envelope) ... ok
+test_cidr_ipv4_and_ipv6_zero_do_not_expand_hosts (test_independent.IndependentEngineTests.test_cidr_ipv4_and_ipv6_zero_do_not_expand_hosts) ... ok
+test_decimal_formatting_does_not_round_long_fraction (test_independent.IndependentEngineTests.test_decimal_formatting_does_not_round_long_fraction) ... ok
+test_duplicate_decoded_keys_are_refused (test_independent.IndependentEngineTests.test_duplicate_decoded_keys_are_refused) ... ok
+test_engine_sources_do_not_import_network_or_execution_adapters (test_independent.IndependentEngineTests.test_engine_sources_do_not_import_network_or_execution_adapters) ... ok
+test_inner_json_unpaired_surrogate_keys_and_values_are_refused (test_independent.IndependentEngineTests.test_inner_json_unpaired_surrogate_keys_and_values_are_refused) ... ok
+test_json_diff_null_boolean_and_array_order_are_distinct (test_independent.IndependentEngineTests.test_json_diff_null_boolean_and_array_order_are_distinct) ... ok
+test_json_preserves_literal_markup_without_execution (test_independent.IndependentEngineTests.test_json_preserves_literal_markup_without_execution) ... ok
+test_large_decimal_exponents_remain_short_and_comparable (test_independent.IndependentEngineTests.test_large_decimal_exponents_remain_short_and_comparable) ... ok
+test_time_offset_minute_overflow_is_refused (test_independent.IndependentEngineTests.test_time_offset_minute_overflow_is_refused) ... ok
+test_unix_microseconds_before_epoch_and_explicit_offset (test_independent.IndependentEngineTests.test_unix_microseconds_before_epoch_and_explicit_offset) ... ok
+test_url_component_is_not_form_urlencoded (test_independent.IndependentEngineTests.test_url_component_is_not_form_urlencoded) ... ok
+test_url_errors_are_sanitized (test_independent.IndependentEngineTests.test_url_errors_are_sanitized) ... ok
+test_uuid_strict_text_rejects_loose_library_forms (test_independent.IndependentEngineTests.test_uuid_strict_text_rejects_loose_library_forms) ... ok
+test_valid_surrogate_pair_is_real_scalar_and_roundtrips (test_independent.IndependentEngineTests.test_valid_surrogate_pair_is_real_scalar_and_roundtrips) ... ok
+test_valid_utf8_bytes_have_known_hash_and_roundtrip (test_independent.IndependentEngineTests.test_valid_utf8_bytes_have_known_hash_and_roundtrip) ... ok
+test_directory_input_and_output_are_rejected (test_independent.IndependentFileTests.test_directory_input_and_output_are_rejected) ... ok
+test_invalid_path_characters_return_safe_structured_error (test_independent.IndependentFileTests.test_invalid_path_characters_return_safe_structured_error) ... ok
+test_output_parent_link_cannot_redirect_or_overwrite (test_independent.IndependentFileTests.test_output_parent_link_cannot_redirect_or_overwrite) ... ok
+test_private_payload_errors_create_no_output_or_partial_report (test_independent.IndependentFileTests.test_private_payload_errors_create_no_output_or_partial_report) ... ok
+test_real_cli_subprocess_preserves_input_and_reports_version (test_independent.IndependentFileTests.test_real_cli_subprocess_preserves_input_and_reports_version) ... ok
+
+----------------------------------------------------------------------
+Ran 21 tests in 0.085s
+
+OK

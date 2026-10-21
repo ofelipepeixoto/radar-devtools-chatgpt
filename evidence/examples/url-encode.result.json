@@ -1,0 +1,12 @@
+{
+  "schema_version": "1.0",
+  "operation": "url.encode",
+  "result": {
+    "text": "Radar%20%2F%20IA%20%2B%20dados"
+  },
+  "limitations": [
+    "Codifica um componente completo; espaços viram %20."
+  ],
+  "input_sha256": "70210c0db11db6deb8eefb682181cba4f99d6e82a1ffd54f7317d9c1a1d4df8c",
+  "engine_version": "0.1.0"
+}

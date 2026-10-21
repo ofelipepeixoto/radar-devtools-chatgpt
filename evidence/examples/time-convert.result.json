@@ -1,0 +1,13 @@
+{
+  "schema_version": "1.0",
+  "operation": "time.convert",
+  "result": {
+    "utc": "2026-10-21T18:00:00Z",
+    "unix_microseconds": "1792605600000000"
+  },
+  "limitations": [
+    "Usa fuso fixo explícito; não aplica calendários de mercado ou regras regionais de horário de verão."
+  ],
+  "input_sha256": "e9bad81e7ca0fdb8cee723879b0cd0858549f5671e8bc4feb0582504dfe267cf",
+  "engine_version": "0.1.0"
+}

@@ -1,0 +1,13 @@
+{
+  "schema_version": "1.0",
+  "operation": "hash.sha256",
+  "result": {
+    "hex": "ba7816bf8f01cfea414140de5dae2223b00361a396177a9cb410ff61f20015ad",
+    "encoding": "UTF-8"
+  },
+  "limitations": [
+    "Hash de texto UTF-8; não prova autoria nem autenticidade da origem."
+  ],
+  "input_sha256": "8de9b7024f98dcabe5ee1986f36a8d729b4156ab1c04ace7bd466efd31e5da02",
+  "engine_version": "0.1.0"
+}

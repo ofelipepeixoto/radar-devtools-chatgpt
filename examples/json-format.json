@@ -1,0 +1,8 @@
+{
+  "schema_version": "1.0",
+  "operation": "json.format",
+  "arguments": {
+    "text": "{\"portal\":\"Radar\",\"valor\":9007199254740993,\"ativo\":true}",
+    "indent": 2
+  }
+}

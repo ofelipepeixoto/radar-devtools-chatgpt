@@ -1,0 +1,7 @@
+{
+  "schema_version": "1.0",
+  "operation": "base64.decode",
+  "arguments": {
+    "text": "T2zDoSwgUmFkYXIh"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "schema_version": "1.0",
+  "operation": "base64.encode",
+  "result": {
+    "text": "T2zDoSwgUmFkYXIh"
+  },
+  "limitations": [
+    "Base64 é codificação reversível, não criptografia."
+  ],
+  "input_sha256": "27abcad7986a0a0d09381aecd3768e1233dccc2b6fc1e75b885e4d674593b30c",
+  "engine_version": "0.1.0"
+}
